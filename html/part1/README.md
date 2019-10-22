@@ -3,7 +3,8 @@
 ### 1. 申请百度地图API
 > http://lbsyun.baidu.com
 
-注册登录后，在控制台中点击 **创建应用** ，详细输入参考 ***images*** 文件夹中的`1.png`，输入完成后点击提交。
+注册登录后，在控制台中点击 **创建应用** ，详细输入参考下图，输入完成后点击提交。
+![创建应用](https://github.com/larrygogo/VisualData-CoolCoder/blob/master/html/part1/images/1.png?raw=true)
 
 点击 **查看应用** 就可以看到我们刚刚创建成功的记录。
 
@@ -12,6 +13,7 @@
 ```html
 <script src="http://api.map.baidu.com/api?v=3.0&ak=您的密钥"></script>
 ```
+![查看密钥](https://github.com/larrygogo/VisualData-CoolCoder/blob/master/html/part1/images/2.png?raw=true)
 
 在刚刚 **查看应用** 页面中，我们可以看到 **访问应用（AK）**，这就是我们的密钥，将上面连接的中文部分替换成你的密钥，并引用到页面中，我们就可以愉快的使用百度地图了。
 
