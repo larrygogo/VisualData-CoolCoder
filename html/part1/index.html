@@ -19,7 +19,7 @@
             height: 100%;
         }
     </style>
-    <!-- 引入百度地图API -->
+    <!-- 引入百度地图API [请替换你的密钥]-->
     <script src="http://api.map.baidu.com/api?v=3.0&ak=您的密钥"></script>
 </head>
 
@@ -29,9 +29,12 @@
     
     <!-- 使用百度地图 -->
     <script>
-        let map = new BMap.Map("container");
-        map.centerAndZoom(new BMap.Point(103.975, 30.5694), 1);
-        map.enableScrollWheelZoom();
+        let map = new BMap.Map("container")
+        // 创建中心点 （此处给的是西南民族大学航空港校区的经纬度）
+        let centerPoint = new BMap.Point(103.975, 30.5694)  
+        // 给定缩放等级 [1 - 19] 数字越大，显示越详细
+        let zoom = 17
+        map.centerAndZoom(centerPoint, zoom);
     </script>
 </body>
 
