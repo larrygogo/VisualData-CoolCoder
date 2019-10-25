@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>可视化系统</title>
+    <!-- 引入css样式文件 -->
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="http://api.map.baidu.com/api?v=3.0&ak=您的密钥"></script>
+</head>
+
+<body>
+    <div id="container"></div>
+
+    <!-- 控制组件 -->
+    <div class="control">
+        <img class="icon" id="enableDragging" src="./images/enableDragging.png" title="启用地图拖拽" />
+        <img class="icon" id="disableDragging" src="./images/disableDragging.png" title="禁用地图拖拽" />
+        <img class="icon" id="zoomIn" src="./images/zoomIn.png" title="放大一级" />
+        <img class="icon" id="zoomOut" src="./images/zoomOut.png" title="缩小一级" />
+        <img class="icon" id="getZoom" src="./images/getZoom.png" title="返回地图当前缩放级别" />
+        <img class="icon" id="reset" src="./images/reset.png" title="初始化" />
+    </div>
+    <!-- 引入js文件 [注意自己写的代码一定要在百度api的后面引入] -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
